@@ -1,13 +1,12 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
-}
-
-.maxWidthWrapper {
+  /* height: 100%; */
 }
 
 .header {
   padding-bottom: 64px;
+  max-width: 65%;
 }
 
 .title {
@@ -18,13 +17,31 @@
   letter-spacing: -0.5px;
 }
 
+.maxWidthWrapper{
+  position: relative;
+}
+
 .description {
   font-size: 1.25rem;
   margin: 0;
 }
 
 .characterWrapper {
+  position: fixed;
+  right: 10%;
+  top: 10%;
+  min-height: 500px;
+  width: 500px;
+}
+
+.badGrayBg {
+  background-color: hsl(195deg, 20%, 86%);
+  position: fixed;
+  top: 60%;
+  height: 40%;
+  width: 100%;
 }
 
 .controlColumn {
+  max-width: 50%;
 }
